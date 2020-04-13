@@ -1,0 +1,11 @@
+@use 'input';
+
+.middle {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    div {
+        width: 200px;
+        height: 200px;
+        background: lightsalmon
+    }
+}
